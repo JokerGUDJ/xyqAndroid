@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/dp_142"
+    android:layout_height="@dimen/dp_30"
+    android:gravity="center_vertical"
+    android:background="@drawable/bg_social_label">
+    <TextView
+        android:id="@+id/tv_zan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/sp_13"
+        android:textColor="@color/white"
+        android:drawablePadding="@dimen/dp_5"
+        android:layout_marginLeft="@dimen/dp_17"
+        android:drawableLeft="@drawable/ic_zan_not"
+        android:text="赞"/>
+    <TextView
+        android:id="@+id/tv_comments"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/sp_13"
+        android:textColor="@color/white"
+        android:drawablePadding="@dimen/dp_5"
+        android:layout_marginLeft="@dimen/dp_28"
+        android:drawableLeft="@drawable/ic_message"
+        android:text="评论"/>
+</LinearLayout>

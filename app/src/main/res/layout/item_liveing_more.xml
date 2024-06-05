@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dp_155"
+    android:background="@drawable/bg_shadow"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_97">
+        <ImageView
+            android:id="@+id/img_liveing"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_107"
+            android:scaleType="fitXY"
+            android:src="@drawable/liveing_default_img"/>
+        <ImageView
+            android:id="@+id/img_label"
+            android:layout_width="@dimen/dp_42"
+            android:layout_height="@dimen/dp_16"
+            android:src="@drawable/label_liveing"/>
+        <TextView
+            android:id="@+id/tv_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="@dimen/dp_5"
+            android:layout_marginBottom="@dimen/dp_5"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp_11"/>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_liveing_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_6"
+        android:layout_marginLeft="@dimen/dp_7"
+        android:layout_marginRight="@dimen/dp_7"
+        android:singleLine="true"
+        android:textColor="#1E293D"
+        android:textStyle="bold"
+        android:textSize="@dimen/sp_13" />
+    <TextView
+        android:id="@+id/tv_liveing_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_1"
+        android:layout_marginLeft="@dimen/dp_7"
+        android:textColor="#2c3c5a"
+        android:textSize="@dimen/sp_11"/>
+</LinearLayout>

@@ -1,0 +1,103 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/color_background"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:clipToPadding="true"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/head_back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:clickable="true"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:src="@drawable/ic_all_return" />
+
+        <TextView
+            android:id="@+id/toolbar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:ellipsize="end"
+            android:gravity="center|center_horizontal"
+            android:singleLine="true"
+            android:text=""
+            android:textColor="#232326"
+            android:textStyle="bold"
+            android:textSize="14dp" />
+
+
+    </RelativeLayout>
+
+    <ScrollView
+        style="@style/scroll_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/white"
+        android:fillViewport="true"
+        android:scrollbarStyle="outsideOverlay">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <com.netease.nim.uikit.business.team.ui.TeamInfoGridView
+                android:id="@+id/team_members_grid_view"
+                style="@style/grid_view"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/color_background"
+                android:gravity="center"
+                android:numColumns="5"
+                android:paddingBottom="25dip"
+                android:paddingLeft="12dip"
+                android:paddingRight="12dip"
+                android:paddingTop="16dip"
+                android:verticalSpacing="16dip" />
+
+            <include
+                android:id="@+id/settings_item_name"
+                layout="@layout/nim_team_info_divider_item" />
+
+            <LinearLayout
+                android:id="@+id/toggle_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:orientation="vertical"
+                android:paddingBottom="50dp"
+                android:paddingTop="30dp">
+
+                <Button
+                    android:id="@+id/quit_team"
+                    android:layout_width="250dp"
+                    android:layout_height="39dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/nim_red_round_button_selector"
+                    android:minHeight="40dp"
+                    android:text="@string/quit_normal_team"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_size_17" />
+
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

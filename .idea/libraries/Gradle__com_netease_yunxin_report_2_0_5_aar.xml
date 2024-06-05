@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.netease.yunxin:report:2.0.5@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/712be1df1fec1c54347019db6dae4988/report-2.0.5/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/712be1df1fec1c54347019db6dae4988/report-2.0.5/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/712be1df1fec1c54347019db6dae4988/report-2.0.5/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.netease.yunxin/report/2.0.5/9ea3c9c5c4662c4b6485994e0482fa31c8636de3/report-2.0.5-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.netease.yunxin/report/2.0.5/25452d52730b012988073fa02d06dd589321e03f/report-2.0.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

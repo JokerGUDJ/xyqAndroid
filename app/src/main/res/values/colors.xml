@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 全局红色 -->
+    <color name="red">#FF445A</color>
+    <!-- 白色 -->
+    <color name="white">#FFFFFF</color>
+    <!-- 白色 -->
+    <color name="white_harf">#80FFFFFF</color>
+    <!-- 黑 -->
+    <color name="black">#000000</color>
+    <!-- 灰 -->
+    <color name="gray">#FF888888</color>
+    <!-- 字体灰 -->
+    <color name="gray_text">#282C3D</color>
+    <!-- Hint字体灰 -->
+    <color name="gray_text_hint">#a6a6a6</color>
+    <!-- Hint字体灰 -->
+    <color name="gray_line">#e2e4e8</color>
+    <!-- 透明 -->
+    <color name="transparent">#00000000</color>
+    <!-- 黄色 -->
+    <color name="yellow">#F7BB05</color>
+    <!-- 蓝色 -->
+    <color name="blue">#1874CD</color>
+    <!-- 深蓝色 -->
+    <color name="blue_society">#3E70BB</color>
+    <!-- 透明点击背景颜色 -->
+    <color name="press_color">#21000000</color>
+
+    <!-- 红色点击背景颜色 -->
+    <color name="red_press_color">#55E13F3F</color>
+    <!-- 全局页面背景 -->
+    <color name="view_bg">#f0f0f0</color>
+    <!--灰色 -->
+    <color name="tv_color">#93a8ac</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="color_232323">#232323</color>
+    <color name="color_8290AF">#8290AF</color>
+    <color name="name_selector_color">#cccccc</color>
+    <color name="im_social_dig_name_bg">#DDDDDD</color>
+    <color name="praise_item">#4760A8</color>
+    <color name="im_line_color">#dadada</color>
+    <color name="list_divider_line">#545454</color>
+    <color name="barcolor">#39000000</color>
+    <color name="font_black">#FF333333</color>
+    <color name="white_alpha_60">#99FFFFFF</color>
+    <color name="black_opacity_60">#99000000</color>
+    <color name="_4d000000">#4d000000</color>
+</resources>

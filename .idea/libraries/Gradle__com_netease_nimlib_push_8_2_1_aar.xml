@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.netease.nimlib:push:8.2.1@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f6ab2bc1c80c0a3ed24a2e3781948cb1/push-8.2.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f6ab2bc1c80c0a3ed24a2e3781948cb1/push-8.2.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f6ab2bc1c80c0a3ed24a2e3781948cb1/push-8.2.1/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.netease.nimlib/push/8.2.1/f3c21f43c3496fd9f7d5ec5a246a3a835040dbb4/push-8.2.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.netease.nimlib/push/8.2.1/e6c93ee89e527ef743fc855a54a1807aaa0cf20e/push-8.2.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

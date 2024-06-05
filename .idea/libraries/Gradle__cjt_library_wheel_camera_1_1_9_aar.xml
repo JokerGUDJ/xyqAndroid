@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: cjt.library.wheel:camera:1.1.9@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6292af82ffc83be10ce32a0fdacc6ac1/jetified-camera-1.1.9/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6292af82ffc83be10ce32a0fdacc6ac1/jetified-camera-1.1.9/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6292af82ffc83be10ce32a0fdacc6ac1/jetified-camera-1.1.9/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/cjt.library.wheel/camera/1.1.9/864181635a851838f07fc321ff820dda3b9a8fd9/camera-1.1.9-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/cjt.library.wheel/camera/1.1.9/b65b1227187ce8dec4a777d5459ace7a897f4eb8/camera-1.1.9-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

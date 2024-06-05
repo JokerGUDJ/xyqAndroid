@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:minHeight="?android:attr/actionBarSize"
+        app:navigationIcon="@drawable/ic_all_return"
+        android:paddingLeft="10dp"
+        android:gravity="center"
+        android:background="@color/red">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/toolbar_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@color/white"
+                android:singleLine="true"
+                android:text=""
+                android:ellipsize="end"
+                android:textSize="14dp" />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/toolbar_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center"
+            android:textColor="@color/white"
+            android:layout_marginRight="15dp"
+            android:singleLine="true"
+            android:text="重拍"
+            android:textSize="14dp" />
+    </androidx.appcompat.widget.Toolbar>
+
+    <ImageView
+        android:layout_below="@+id/toolbar"
+        android:id="@+id/imageViewPreview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="85dp"/>
+
+    <Button
+        android:layout_marginBottom="20dp"
+        android:id="@+id/buttonSend"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_alignBottom="@+id/imageViewPreview"
+        android:background="@drawable/nim_message_button_bottom_send_selector"
+        android:gravity="center"
+        android:text="@string/send"
+        android:textColor="@color/white"
+        android:layout_alignParentBottom="true"
+        android:textSize="17dp" />
+
+</RelativeLayout>

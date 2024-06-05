@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Android.iml" filepath="$PROJECT_DIR$/.idea/modules/Android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/G2/Android.G2.iml" filepath="$PROJECT_DIR$/.idea/modules/G2/Android.G2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/G2/nertcvideocall/Android.G2.nertcvideocall.iml" filepath="$PROJECT_DIR$/.idea/modules/G2/nertcvideocall/Android.G2.nertcvideocall.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/G2/nertcvideocall/Android.G2.nertcvideocall.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/G2/nertcvideocall/Android.G2.nertcvideocall.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/G2/nertcvideocall/Android.G2.nertcvideocall.main.iml" filepath="$PROJECT_DIR$/.idea/modules/G2/nertcvideocall/Android.G2.nertcvideocall.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/G2/nertcvideocall/Android.G2.nertcvideocall.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/G2/nertcvideocall/Android.G2.nertcvideocall.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/G2/ui/Android.G2.ui.iml" filepath="$PROJECT_DIR$/.idea/modules/G2/ui/Android.G2.ui.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/G2/ui/Android.G2.ui.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/G2/ui/Android.G2.ui.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/G2/ui/Android.G2.ui.main.iml" filepath="$PROJECT_DIR$/.idea/modules/G2/ui/Android.G2.ui.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/G2/ui/Android.G2.ui.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/G2/ui/Android.G2.ui.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Android.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Android.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Android.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Android.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Android.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Android.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Android.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Android.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/Android.common.iml" filepath="$PROJECT_DIR$/.idea/modules/common/Android.common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/Android.common.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/common/Android.common.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/Android.common.main.iml" filepath="$PROJECT_DIR$/.idea/modules/common/Android.common.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/Android.common.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/common/Android.common.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/uikit/Android.uikit.iml" filepath="$PROJECT_DIR$/.idea/modules/uikit/Android.uikit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/uikit/Android.uikit.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/uikit/Android.uikit.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/uikit/Android.uikit.main.iml" filepath="$PROJECT_DIR$/.idea/modules/uikit/Android.uikit.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/uikit/Android.uikit.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/uikit/Android.uikit.unitTest.iml" />
+    </modules>
+  </component>
+</project>

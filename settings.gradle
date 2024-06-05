@@ -1,0 +1,2 @@
+include ':G2:ui',':G2:nertcvideocall'
+include ':app', ':common', ':uikit'

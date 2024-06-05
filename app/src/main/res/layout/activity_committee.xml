@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+
+    <com.xej.xhjy.ui.view.TitleView
+        android:id="@+id/titleview"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        app:editIsShow="true"
+        app:messageIsShow="true"
+        app:titleString="金融市场"
+        app:zxingIsShow="false" />
+
+    <include layout="@layout/view_society_new_message"></include>
+
+    <com.scwang.smartrefresh.layout.SmartRefreshLayout
+        android:id="@+id/refreshLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        app:srlEnableLoadMoreWhenContentNotFull="true">
+
+        <com.scwang.smartrefresh.layout.header.ClassicsHeader
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <RelativeLayout
+            android:id="@+id/bodyLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.xej.xhjy.common.view.recyclerview.CommonRecyclerView
+                android:id="@+id/recycle_committee_list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:clipToPadding="false"
+                android:layoutAnimation="@anim/layout_animation_fall_down"
+                android:scrollbars="none" />
+
+            <com.xej.xhjy.ui.view.EmptyView
+                android:id="@+id/committee_empty"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <include
+                layout="@layout/layout_editview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+
+        <com.scwang.smartrefresh.layout.footer.ClassicsFooter
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_80"
+        android:background="@color/white"
+        android:layout_marginTop="-13dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/ll_contact"
+            android:layout_width="@dimen/dp_151"
+            android:layout_height="@dimen/dp_39"
+            android:gravity="center"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/bg_btn_committee"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp_3"
+                android:text="专委会通讯录"
+                android:textColor="#E44744"
+                android:textSize="@dimen/sp_15" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_im"
+            android:layout_width="@dimen/dp_151"
+            android:layout_height="@dimen/dp_39"
+            android:layout_marginLeft="@dimen/dp_24"
+            android:gravity="center"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/bg_btn_committee"
+            android:orientation="horizontal">
+            <com.xej.xhjy.ui.society.widgets.MyTextViewNum
+                android:id="@+id/tv_message_num"
+                android:layout_width="17dp"
+                android:layout_height="17dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="-8dp"
+                android:layout_toRightOf="@+id/iv_message"
+                android:gravity="center"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/tv_committee_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp_3"
+                android:text="专委会群聊"
+                android:textColor="#E44744"
+                android:textSize="@dimen/sp_15" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+
+

@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.netease.yunxin:yxbase:1.0.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ccb343312d9b70b3e61b612de9f79824/yxbase-1.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ccb343312d9b70b3e61b612de9f79824/yxbase-1.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ccb343312d9b70b3e61b612de9f79824/yxbase-1.0.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.netease.yunxin/yxbase/1.0.0/e08014caac4237549e894966c2cad23daeea3c4d/yxbase-1.0.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.netease.yunxin/yxbase/1.0.0/2876a69d5d6ee806e16dec76559be6afdda1252a/yxbase-1.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

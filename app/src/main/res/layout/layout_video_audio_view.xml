@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="40dp">
+
+    <ImageView
+        android:id="@+id/img_call"
+        android:layout_width="@dimen/dp_16"
+        android:layout_height="@dimen/dp_19"
+        android:layout_marginLeft="@dimen/dp_10"
+        android:layout_centerVertical="true"
+        android:src="@drawable/icon_video_audio_call"/>
+    <TextView
+        android:id="@+id/video_audio_call_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:textColor="@color/black"
+        android:layout_toRightOf="@+id/img_call"
+        android:layout_toLeftOf="@+id/iv_goto"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:layout_marginLeft="@dimen/dp_10"/>
+    <ImageView
+        android:id="@+id/iv_goto"
+        android:layout_width="@dimen/dp_8"
+        android:layout_height="@dimen/dp_14"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/dp_10"
+        android:src="@drawable/arrow_right"/>
+</RelativeLayout>

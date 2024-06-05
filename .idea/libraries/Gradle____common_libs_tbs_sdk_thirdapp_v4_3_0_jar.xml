@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: ./common/libs/tbs_sdk_thirdapp_v4.3.0.jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/common/libs/tbs_sdk_thirdapp_v4.3.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

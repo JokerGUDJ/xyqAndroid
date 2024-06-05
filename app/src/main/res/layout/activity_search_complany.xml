@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#F8F8F8">
+    <com.xej.xhjy.ui.view.StatusBarHoldView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:background="@color/white" />
+    <com.xej.xhjy.ui.view.TitleView
+        android:id="@+id/titleview"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        app:zxingIsShow="false"
+        app:messageIsShow="false"
+        app:titleString="搜索机构"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_32"
+        android:background="@drawable/bg_search"
+        android:layout_marginTop="@dimen/dp_12"
+        android:layout_marginLeft="@dimen/dp_15"
+        android:layout_marginRight="@dimen/dp_15"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/edt_search"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_36"
+            android:background="@drawable/white_btn_round_bg"
+            android:hint="请输入机构名称进行搜索"
+            android:singleLine="true"
+            android:paddingLeft="35dp"
+            android:paddingRight="60dp"
+            android:textColor="@color/gray_text"
+            android:textColorHint="@color/gray_text_hint"
+            android:textCursorDrawable="@null"
+            android:imeOptions="actionSearch"
+            android:textSize="@dimen/sp_12" />
+        <View
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dp"
+            android:background="@drawable/ic_search_icon"/>
+    </RelativeLayout>
+    <com.xej.xhjy.common.view.recyclerview.CommonRecyclerView
+        android:id="@+id/search_complany_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/dp_12"
+        android:layoutAnimation="@anim/layout_animation_fall_down"
+        android:clipToPadding="false"
+        android:scrollbars="none" />
+</LinearLayout>

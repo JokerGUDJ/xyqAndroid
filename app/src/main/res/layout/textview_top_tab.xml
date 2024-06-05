@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <TextView
+        android:id="@+id/tv_task_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="14dp"
+        android:textColor="#333333" />
+    <ImageView
+        android:id="@+id/new_message_tip"
+        android:layout_width="@dimen/dp_7"
+        android:layout_height="@dimen/dp_7"
+        android:layout_toRightOf="@+id/tv_task_bar"
+        android:layout_alignTop="@+id/tv_task_bar"
+        android:layout_marginLeft="@dimen/dp_5"
+        android:scaleType="fitXY"
+        android:visibility="gone"
+        android:src="@drawable/red_round_point" />
+    <View
+        android:id="@+id/divier"
+        android:layout_width="@dimen/dp_30"
+        android:layout_height="@dimen/dp_2"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/dp_13"
+        android:background="#E54844"/>
+</RelativeLayout>

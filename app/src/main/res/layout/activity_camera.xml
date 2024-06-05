@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+    <RelativeLayout
+        android:id="@+id/camera_preview_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <!--相机预览-->
+        <com.xej.xhjy.ui.login.cropper.CameraPreview
+            android:id="@+id/camera_preview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"/>
+        <!--左侧相机预览布局-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:orientation="horizontal">
+
+            <!--相机裁剪区域左边-->
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#9a000000" />
+
+            <LinearLayout
+                android:id="@+id/ll_camera_crop_container"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <!--相机裁剪区域顶部-->
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:background="#9a000000" />
+
+                <!--相机裁剪区域-->
+                <ImageView
+                    android:id="@+id/iv_camera_crop"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center"
+                    android:scaleType="fitXY" />
+
+                <!--手动裁剪区域-->
+                <com.xej.xhjy.ui.login.cropper.CropImageView
+                    android:id="@+id/crop_image_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:visibility="gone" />
+
+                <!--相机裁剪区域底部-->
+                <TextView
+                    android:id="@+id/tv_camera_crop_bottom"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:background="#9a000000"
+                    android:gravity="center"
+                    android:text="触摸屏幕对焦"
+                    android:textColor="#afff"
+                    android:textSize="16dp" />
+
+            </LinearLayout>
+            <!--相机裁剪区域右边-->
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#9a000000" />
+        </LinearLayout>
+    </RelativeLayout>
+    <!--右侧操作布局-->
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#9a000000">
+        <!--拍照前操作布局-->
+        <RelativeLayout
+            android:id="@+id/re_camera_option"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/btn_camera_take"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_centerInParent="true"
+                android:background="@drawable/icon_camera_capture_pressed"
+                android:text="拍照"
+                android:textColor="#aaa" />
+
+            <TextView
+                android:id="@+id/btn_jump_over"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/dp_54"
+                android:layout_above="@id/btn_camera_take"
+                android:background="@drawable/butn_big_weak"
+                android:layout_centerHorizontal="true"
+                android:gravity="center_horizontal"
+                android:paddingTop="@dimen/dp_12"
+                android:textColor="@color/white"
+                android:layout_marginBottom="50dp"
+                android:text="跳过" />
+
+
+            <Button
+                android:id="@+id/btn_camera_close"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/btn_camera_take"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/base_red"
+                android:background="@drawable/red_round_white_bg"
+                android:layout_marginTop="50dp"
+                android:text="取消" />
+        </RelativeLayout>
+
+
+        <!--拍照后操作布局-->
+        <LinearLayout
+            android:id="@+id/ll_camera_result"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <Button
+                android:id="@+id/iv_camera_result_ok"
+                android:layout_width="70dp"
+                android:layout_height="40dp"
+                android:textColor="@color/white"
+                android:background="@drawable/red_rippleg_round_bg"
+                android:text="确定"/>
+
+            <Button
+                android:id="@+id/iv_camera_result_cancel"
+                android:layout_width="70dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="100dp"
+                android:textColor="@color/base_red"
+                android:background="@drawable/red_round_white_bg"
+                android:text="重拍"/>
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

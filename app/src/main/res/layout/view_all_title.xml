@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/ll_title_bg"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/head_back"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/btn_tran_press_bg"
+                android:paddingLeft="12dp"
+                android:paddingRight="12dp"
+                android:src="@drawable/ic_all_return" />
+
+            <ImageView
+                android:id="@+id/img_zxing"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:background="@drawable/btn_tran_press_bg"
+                android:padding="15dp"
+                android:src="@drawable/ic_zxing_icon" />
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/head_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.5"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:maxLines="1"
+            android:paddingLeft="@dimen/dp_5"
+            android:textColor="#232326"
+            android:textSize="18dp" />
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/img_edit"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:background="@drawable/btn_tran_press_bg"
+                android:layout_toLeftOf="@+id/img_message"
+                android:src="@drawable/ic_edit"
+                android:paddingLeft="@dimen/dp_15"
+                android:paddingTop="@dimen/dp_15"
+                android:paddingBottom="@dimen/dp_15"
+                android:visibility="invisible" />
+
+            <LinearLayout
+                android:id="@+id/ll_av_meeting"
+                android:layout_width="@dimen/dp_70"
+                android:layout_height="match_parent"
+                android:visibility="gone"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="@dimen/dp_15"
+                    android:layout_height="@dimen/dp_15"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center"
+                    android:src="@drawable/icon_add_group" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="@dimen/dp_12"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/dp_5"
+                    android:gravity="left|center"
+                    android:text="会议"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/dp_16" />
+
+            </LinearLayout>
+            <ImageView
+                android:id="@+id/img_message"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/btn_tran_press_bg"
+                android:paddingLeft="@dimen/dp_5"
+                android:paddingTop="@dimen/dp_15"
+                android:paddingBottom="@dimen/dp_15"
+                android:paddingRight="@dimen/dp_10"
+                android:src="@drawable/ic_message_icon" />
+
+            <ImageView
+                android:id="@+id/img_message_new"
+                android:layout_width="8dp"
+                android:layout_height="8dp"
+                android:layout_marginLeft="@dimen/dp_22"
+                android:layout_marginTop="12dp"
+                android:layout_toRightOf="@+id/img_edit"
+                android:background="@drawable/red_round_point"
+                android:visibility="visible" />
+        </RelativeLayout>
+
+    </LinearLayout>
+</RelativeLayout>

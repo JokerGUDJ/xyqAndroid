@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <!--  targetSdkVersion=28以上 Android 9.0之后网络安全配置，不然会无法访问http请求 只能访问HTTPS  -->
+    <base-config cleartextTrafficPermitted="true" />
+</network-security-config>

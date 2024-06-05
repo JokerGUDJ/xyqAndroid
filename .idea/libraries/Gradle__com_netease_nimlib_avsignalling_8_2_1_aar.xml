@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.netease.nimlib:avsignalling:8.2.1@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ac1346fb9c8e71e442fdd4fff8723d94/avsignalling-8.2.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ac1346fb9c8e71e442fdd4fff8723d94/avsignalling-8.2.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ac1346fb9c8e71e442fdd4fff8723d94/avsignalling-8.2.1/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.netease.nimlib/avsignalling/8.2.1/96cea67cf30bfc3ef78ce65b0705e2c051ba05a2/avsignalling-8.2.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.netease.nimlib/avsignalling/8.2.1/1cfe0936559d5481ed16016ebc050143eb2b9ca5/avsignalling-8.2.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

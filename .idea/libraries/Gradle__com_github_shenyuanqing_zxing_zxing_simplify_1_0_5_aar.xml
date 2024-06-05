@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.shenyuanqing.zxing:zxing-simplify:1.0.5@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/88f5e0c2db5214931b16186926322e65/jetified-zxing-simplify-1.0.5/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/88f5e0c2db5214931b16186926322e65/jetified-zxing-simplify-1.0.5/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/88f5e0c2db5214931b16186926322e65/jetified-zxing-simplify-1.0.5/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.shenyuanqing.zxing/zxing-simplify/1.0.5/7dd1ab68f523e0752e27ff3ad5719b4a889af6d6/zxing-simplify-1.0.5-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.shenyuanqing.zxing/zxing-simplify/1.0.5/9bb72430a31f090220e70e269fe3360c23b5fa6b/zxing-simplify-1.0.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

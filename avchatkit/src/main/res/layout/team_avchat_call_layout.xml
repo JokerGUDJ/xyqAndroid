@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_black_333333">
+
+    <ImageView
+        android:id="@+id/img_head"
+        android:layout_width="124dp"
+        android:layout_height="124dp"
+        android:layout_marginTop="136dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/ic_user_default_icon" />
+    <TextView
+        android:id="@+id/callee_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/img_head"
+        android:layout_marginTop="25dp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="25dp" />
+    <TextView
+        android:id="@+id/received_call_tip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/callee_name"
+        android:layout_marginTop="20dp"
+        android:text="@string/avchat_audio_call_request"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="14dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="52dp"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp">
+
+        <TextView
+            android:id="@+id/refuse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/avchat_refuse_bg_selector"
+            android:drawablePadding="15dp"
+            android:gravity="center_horizontal"
+            android:text="取消"
+            android:textSize="14dp"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:id="@+id/receive"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="122dp"
+            android:drawableTop="@drawable/avchat_receive_bg_selector"
+            android:drawablePadding="15dp"
+            android:gravity="center_horizontal"
+            android:text="加入"
+            android:textSize="14dp"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+
+</RelativeLayout>

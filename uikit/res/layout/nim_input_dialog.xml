@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginBottom="30dp"
+    android:layout_marginLeft="28dp"
+    android:layout_marginRight="28dp"
+    android:layout_marginTop="30dp"
+    android:background="@drawable/dialog_bg_stroke"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="温馨提示"
+        android:textColor="@color/black"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+    <EditText
+        android:id="@+id/et_input"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="42dp"
+        android:background="@drawable/lightgray_r2_stroke"
+        android:focusableInTouchMode="true"
+        android:hint="请输入内容"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:singleLine="true"
+        android:textSize="16dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_input"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal"
+        android:paddingBottom="5dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:paddingTop="5dp">
+
+        <Button
+            android:id="@+id/btn_positive"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/dialag_btn_solid"
+            android:gravity="center"
+            android:text="确认"
+            android:textColor="@color/white"
+            android:textSize="16dp" />
+
+        <Button
+            android:id="@+id/btn_negative"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/dialog_btn_stroke"
+            android:gravity="center"
+            android:text="取消"
+            android:textColor="@color/grey"
+            android:textSize="16dp" />
+    </LinearLayout>
+
+</RelativeLayout>

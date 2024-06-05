@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="Gradle: com.yanzhenjie:fragment:1.0.0@aar">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/184b191921efadb28e0686c58bee7d7c/jetified-fragment-1.0.0/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/184b191921efadb28e0686c58bee7d7c/jetified-fragment-1.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/184b191921efadb28e0686c58bee7d7c/jetified-fragment-1.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/184b191921efadb28e0686c58bee7d7c/jetified-fragment-1.0.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.yanzhenjie/fragment/1.0.0/19078450c4035c50725a0ad56097970a8ca2c815/fragment-1.0.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.yanzhenjie/fragment/1.0.0/7f4b903ad94bbd163eba3038d496d6087326e91f/fragment-1.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
